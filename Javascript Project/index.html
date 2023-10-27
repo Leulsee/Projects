@@ -1,0 +1,41 @@
+<html>
+
+<head>
+    <title>BMI Calculator</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+	<!-- <link rel="stylesheet" type="text/css" href="stylesheet.css"> -->
+	<!-- <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet"> -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="main_container">
+        <div>
+            <h2 style="text-align:center; margin-bottom: 10px;margin-top: 10px;">BMI Calculation</h2>
+
+            <div class="glass-morphism-container3">
+                <h4>Weight (kg):</h4>
+                <input class="input-styling" type="number" id="weight" placeholder="Your Weight (kg)" required>
+
+                <h4>Height (cm):</h4>
+                <input class="input-styling" id="height" type="number" placeholder="Your Height (cm)" required>
+                <div>
+                    <button class="button-styling" , id="button-calculate" onclick="calculate()">
+                        Calculate
+                    </button>
+                </div>
+               
+            </div>
+   
+        </div>
+        <div class="result-area">
+            <h4 class="text-styling">Result:</h4>
+            <h2 class="text-styling" id="result">--</h2>
+            <h4 class="suggestion" id="suggestion"></h4>
+            <p class = "normal-bmi" id="normal-bmi"></p>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>

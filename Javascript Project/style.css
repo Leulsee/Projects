@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300&display=swap');
+*{
+  padding:0px;
+  margin: 0px;
+  font-family: 'Roboto:300', sans-serif;
+}
+
+.main_container{
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items:center;
+  min-width: 100vw;
+  min-height: 100vh;
+  background-color:#aeabcf;
+}
+
+.glass-morphism-container3{
+    display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items:center;
+    background-color: rgba(65, 215, 241, 0.603);
+    width: 50vw;
+    padding: 60px;
+    color:#008eb5;
+    border-radius: 25px;
+    border: solid 2px transparent;
+     background-clip: padding-box;
+    box-shadow: 10px 10px 10px  rgba(46, 54, 68, 0.03);
+    backdrop-filter: blur(25px);
+  }
+
+  input,
+label,
+select,
+button,
+textarea
+{
+	margin:0;
+	border:0;
+	padding:0;
+	display:inline-block;
+	vertical-align:middle;
+	white-space:normal;
+	background:none;
+	line-height:3;
+	
+	/* Browsers have different default form fonts */
+	font-size:13px;
+	font-family:Arial;
+}
+
+/* Remove the stupid outer glow in Webkit */
+input:focus
+{
+	outline:0;
+}
+
+.input-styling{
+    margin-top:10px;
+    margin-bottom: 10px;
+	border-radius: 10px;
+	padding:25px;
+	display:inline-block;
+	vertical-align:middle;
+	white-space:normal;
+	background-color:white;
+	line-height:1;
+    font-size:25px;
+  color: #00c1e8
+}
+
+@media only screen and (max-width: 600px) {
+  .input-styling{
+    margin-top:10px;
+    margin-bottom: 10px;
+	border-radius: 10px;
+	padding:20px;
+	display:inline-block;
+	vertical-align:middle;
+	white-space:normal;
+	background-color:white;
+	line-height:1;
+    font-size:18px;
+    color: #00c1e8;
+    font-weight: bold;
+}
+}
+
+.button-styling{
+    background-color: 	#FF7F50;
+    color: white;
+    font-size: 18px;
+    border-radius: 10px;
+	padding: 2px 10px;
+    outline: none;
+
+}
+.button-styling:hover{
+    cursor: pointer;
+    box-shadow: 5px 5px 5px  rgba(253, 253, 255, 0.521);
+    backdrop-filter: blur(25px);
+    outline: none;
+
+}
+
+.result-area{
+    background-color: rgba(233, 224, 214, 0.733);
+    width: 50vw;
+    padding-left: 60px;
+    padding-right: 60px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    color:black;
+    border-radius: 25px;
+    border: solid 2px transparent;
+     background-clip: padding-box;
+    box-shadow: 10px 10px 10px  rgba(46, 54, 68, 0.03);
+    backdrop-filter: blur(25px);
+    margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.text-styling{
+    text-align: center;
+    margin-top: 10px;
+    
+}
+
+.suggestion{
+    color: black;
+    margin-top: 10px;
+    text-align: center;
+}
+
+.normal-bmi{
+    color: rgb(0, 156, 177);
+    margin-top: 10px;
+    text-align: center;
+}
